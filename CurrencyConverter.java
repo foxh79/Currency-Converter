@@ -6,6 +6,7 @@ public class CurrencyConverter extends JFrame {
     private JTextField kshsField, usdField, euroField;
     private JButton convertButton, exitButton;
     private double kshs, usd, euro;
+    
     setSize(300, 200);
     setVisible(true);
     
@@ -16,25 +17,21 @@ public class CurrencyConverter extends JFrame {
 
         kshsLabel = new JLabel("Kshs: ");
         add(kshsLabel);
-
         kshsField = new JTextField();
         add(kshsField);
 
         usdLabel = new JLabel("USD: ");
         add(usdLabel);
-
         usdField = new JTextField();
         add(usdField);
 
         euroLabel = new JLabel("Euro: ");
         add(euroLabel);
-
         euroField = new JTextField();
         add(euroField);
 
         convertButton = new JButton("Convert");
         add(convertButton);
-
         exitButton = new JButton("Exit");
         add(exitButton);
 
