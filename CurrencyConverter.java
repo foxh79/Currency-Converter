@@ -6,7 +6,9 @@ public class CurrencyConverter extends JFrame {
     private JTextField kshsField, usdField, euroField;
     private JButton convertButton, exitButton;
     private double kshs, usd, euro;
-
+    setSize(300, 200);
+    setVisible(true);
+    
     public CurrencyConverter() {
         setTitle("Currency Converter");
         Container pane = getContentPane();
@@ -51,9 +53,6 @@ public class CurrencyConverter extends JFrame {
                 System.exit(0);
             }
         });
-
-        setSize(300, 200);
-        setVisible(true);
     }
 
     public static void main(String[] args) {
