@@ -11,7 +11,7 @@ public class CurrencyConverter extends JFrame {
     setVisible(true);
     
     public CurrencyConverter() {
-        setTitle("Currency Converter Jack");
+        setTitle("Currency Converter");
         Container pane = getContentPane();
         pane.setLayout(new GridLayout(4, 2));
 
